@@ -24,7 +24,7 @@ import json
 from pyluach import parshios, dates
 import pandas as pd
 
-st.set_page_config(page_title="Dvar Creator (BETA)", page_icon="📚", layout="wide", initial_sidebar_state="collapsed")
+st.set_page_config(page_title="Chitas Collator", page_icon="📖", layout="wide", initial_sidebar_state="collapsed")
 
 options = webdriver.ChromeOptions()
 options.add_argument('--headless')
